@@ -5,7 +5,9 @@
 body {
     background-color: #fff3cd;
 }
-
+.navbar-brand{
+    font-weight: bold;
+}
 
 .featurette-heading, .lead, h4 {
     font-family: inherit; /* 确保所有文字使用相同的字体 */
