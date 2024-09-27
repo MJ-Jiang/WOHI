@@ -1,2 +1,2 @@
 # WOHI
-Course exercises
+Course exercises 2024
