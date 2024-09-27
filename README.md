@@ -1,2 +1,3 @@
 # WOHI
-Course exercises 2024
+Course exercises @MJ-Jiang 2024
+
