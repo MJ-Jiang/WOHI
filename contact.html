@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css" />
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mojun's Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="cv.html">CV</a>
+              <a class="nav-link" href="hobbies.html">Hobby</a>
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <form>
+        <div class="row mb-3 mt-3">     <!--  创建一个 Bootstrap 的行（row），mb-3 是一个用于设置下边距的类，值为 3（通常是 1.5rem） mt增加上边距*/ -->
+            <div class="col-md-1"></div> <!-- 创建一个占用 1 列的空白列，用于在行的左侧添加空间。 -->
+                <label for="inputContact" class="col-sm-2 col-form-label custom-margin">Name</label> <!-- col-sm-2 表示在小屏幕及以上占用 2 列 -->
+                <div class="col-sm-5 custom-padding"> <!-- 创建一个占用 5 列的容器，用于包裹输入框 -->
+                <input type="text" class="form-control" id="inputContact" placeholder="Please input your name">
+                <div class="col-md-1"></div>  
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-1"></div>
+            <label for="inputContact" class="col-sm-2 col-form-label custom-margin">Age</label>
+            <div class="col-sm-5 custom-padding">
+                <input type="number" class="form-control" id="inputContact" placeholder="Please input your age">
+                <div class="col-md-1"></div> 
+                </div>
+            </div>
+        <div class="row mb-3">
+            <div class="col-md-1"></div>
+            <label for="inputContact" class="col-sm-2 col-form-label custom-margin">Email</label>
+            <div class="col-sm-5 custom-padding">
+                <input type="text" class="form-control" id="inputContact" placeholder="Please input your email">
+                <div class="col-md-1"></div> 
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-1"></div>
+            <label for="inputContact" class="col-sm-2 col-form-label custom-margin">Message</label>
+            <div class="col-sm-5 custom-padding">
+              <input type="text" class="form-control" id="inputContact" placeholder="What do you want to say to me?">
+              <div class="col-md-1"></div> 
+            </div>
+          </div>
+        <fieldset class="row mb-3">
+            <div class="col-md-1"></div>
+            <legend class="col-form-label col-sm-2 pt-0 custom-margin">How did you know about my page?</legend>
+            <div class="col-sm-5 custom-padding">
+              <div class="form-check">
+              <input class="form-check-input " type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label lead fs-6" for="gridRadios1">Google</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label lead fs-6" for="gridRadios2">From a friend</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label lead fs-6" for="gridRadios3">From Linkedin</label>
+              </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                <label class="form-check-label lead fs-6" for="gridRadios4">Other</label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="row mb-3">
+            <div class="col-md-1"></div> 
+            <div class="col-md-1 custom-margin"> 
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+      </form>
+
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"></a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Mojun Jiang</span>
+        </div>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

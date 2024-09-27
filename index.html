@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <link rel="stylesheet" href="./style.css" />
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mojun's Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="cv.html">CV</a>
+              <a class="nav-link" href="hobbies.html">Hobby</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+
+    <div class="row featurette text-center">
+      <div class="col-md-7">
+        <div class="row">
+          <!-- 每个 .row 创建一个新的水平行，并为其内部的列（.col-*）提供负边距，使它们能够正确对齐并填充整个宽度。.col-md-7 是一个大列，它可以包含多个子元素。如果你想在这个列中再添加列（例如，创建一个间隔），就需要使用新的 .row。
+          直接在 .col-md-7 内部添加 .col-md-1 会导致结构混乱，因为你是在同一层级下插入了一个新的列，而不是在新的行中。 -->
+          <div class="col-md-1"></div> <!-- 空白列，左侧的间距 -->
+          <div class="col-md-11"> <!-- 用于容纳标题和段落 -->
+            <h2 class="featurette-heading fw-normal lh-1 mt-3">Mojun Jiang</h2> <!-- 添加 mt-3 -->
+            <p class="lead">I am not keen on traveling but I have been to many countries and cities. I don’t like multitasking or communicating with people but my work is related to these. 
+              Life is always not what you want, but I have always done well.</p>
+            <h4>Contact Me</h4> 
+            <ul class="list-unstyled">
+              <li class="lead fs-6" >Email: mojunjia@uef.fi</li> <!-- 添加 lead 类 -->
+              <li class="lead fs-6">Social Media: <a href="https://x.com/yourprofile" target="_blank">Twitter</a></li> <!-- 添加 lead 类 -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 mt-3">
+        <div class="col-md-1"></div> <!-- 照片右侧的空白列 -->
+        <img src="personal photo.jpg" alt="Personal Photo" class="profile-photo"/>
+      </div>
+    </div>
+    
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"></a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Mojun Jiang</span>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

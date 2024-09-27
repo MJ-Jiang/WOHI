@@ -1,0 +1,51 @@
+
+.navbar{
+    background-color:#f8f9fa !important;
+}
+body {
+    background-color: #fff3cd;
+}
+
+
+.featurette-heading, .lead, h4 {
+    font-family: inherit; /* 确保所有文字使用相同的字体 */
+  }  
+.profile-photo{
+    width: 400px; 
+    height: auto;
+    border-radius: 50%;
+}
+.photo{
+    width:200px ;
+    height:230px;
+    border-radius: 50%;
+}
+
+
+table{
+    border-collapse: collapse;/*合并*/
+    border-spacing: 8px;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+th {
+    background-color: #e9ecef;
+}
+
+
+
+
+
+.custom-margin {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.custom-padding {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+  
